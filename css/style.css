@@ -1,0 +1,89 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+  
+}
+/* navbar start */
+.mynavbar{
+    background-color: #4741af;
+    border: #6c63ff;
+
+}
+
+.navbar
+
+ { background-color: #4741af;
+
+font-weight: 900;
+
+border: #4741af;
+font-size: 24px;
+}
+
+.nav-link{ 
+    color: white;
+
+}
+/* Navbarend */
+/* text banner head STart  */
+.banner-text {
+    color: white;
+    font-size: 24px;
+   
+   
+}
+
+/* banner heead end */
+/* banner text start*/
+.banner-head{ color: white;
+
+     font-size: 72px;
+    font-weight: 800;}
+
+
+.banner-btn :hover{
+    background-color: white;
+    color: #6c63ff;
+}
+
+.banner-btn{ 
+ 
+    color: white;
+    background: #6c63ff;
+    font-weight: 600;
+    padding: 12px 58px;
+    border-radius: 30px;
+    font-size: 21px;
+/*  banner text end */
+}
+.text-sub{ color: #6c63ff
+    font
+    ;
+font-weight: 700;
+font-size: 24px;
+
+
+
+}
+
+.text-title{ font-weight: 700;
+    font-size: 35px;
+
+}
+
+.text-link { font-weight: 700;
+    text-decoration: none;
+    color: black;
+   
+
+
+}
+.text-p{
+    font-weight: 400;
+    font-size: 17;
+}
+    img-fluid
+
+.secondback{
+    background-color: white;
+}
+
