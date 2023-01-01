@@ -1,89 +1,140 @@
-.body{
+body {
     font-family: 'Poppins', sans-serif;
-  
-}
-/* navbar start */
-.mynavbar{
-    background-color: #4741af;
-    border: #6c63ff;
-
 }
 
-.navbar
 
- { background-color: #4741af;
+.mynavbar {
+    background-color: #4741AF;
 
-font-weight: 900;
-
-border: #4741af;
-font-size: 24px;
 }
 
-.nav-link{ 
+.navbar {
+
+    font-weight: 900;
+    background-color: #4741AF;
     color: white;
-
 }
-/* Navbarend */
-/* text banner head STart  */
-.banner-text {
+
+
+.nav-link,
+.navbar-brand {
+    color: white
+}
+
+.banner-btn {
+    background-color: #6C63FF;
     color: white;
-    font-size: 24px;
-   
-   
-}
-
-/* banner heead end */
-/* banner text start*/
-.banner-head{ color: white;
-
-     font-size: 72px;
-    font-weight: 800;}
-
-
-.banner-btn :hover{
-    background-color: white;
-    color: #6c63ff;
-}
-
-.banner-btn{ 
- 
-    color: white;
-    background: #6c63ff;
     font-weight: 600;
     padding: 12px 58px;
     border-radius: 30px;
     font-size: 21px;
-/*  banner text end */
-}
-.text-sub{ color: #6c63ff
-    font
-    ;
-font-weight: 700;
-font-size: 24px;
-
-
-
 }
 
-.text-title{ font-weight: 700;
+
+.banner-text {
+
+    font-size: 24px;
+}
+
+.banner-btn:hover {
+    background-color: white;
+    color: #6C63FF;
+}
+
+
+
+.banner {
+    background-color: #4741AF;
+    color: white;
+}
+
+.banner-heading {
+    font-size: 72px;
+    font-weight: 800;
+
+}
+
+.text-subtitle {
+    color: #6C63FF;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.text.title {
+    font-weight: 700;
     font-size: 35px;
 
 }
 
-.text-link { font-weight: 700;
+.service-image-background {
+    background-color: rgb(243, 249, 251);
+    border-radius: 50%;
+}
+
+.text-title-large {
+    font-size: 48px;
+}
+
+.service-image-background img {
+    margin-top: -100px;
+    margin-left: 46px;
+}
+
+.navbar-brand {
+    font-size: 45px;
+}
+
+.about-img {
+    margin-left: -308px;
+}
+
+.text-title-service{
+    font-size: 48;
+    font-weight: 700;
+}
+
+
+.text-link {
+    font-weight: 700;
     text-decoration: none;
     color: black;
-   
-
-
+    border-bottom: 3px solid#6C63FF
 }
-.text-p{
+
+
+
+
+
+/* full-section */
+.full-section{
+    background-color: rgb(243, 249, 251);
+}
+
+.text-p {
+    font-size: 18px;
     font-weight: 400;
-    font-size: 17;
-}
-    img-fluid
-
-.secondback{
-    background-color: white;
 }
 
+.service-icon{
+    background-color: #6C63FF;
+    color: white;
+    padding: 11px;
+    border-radius: 50%;
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    
+    padding-right: 10px;
+  }
+
+  .service-title{
+    font-weight: 700;
+    font-size: 21px;
+  }
+  .service-card {
+    transition: all 0.8s ease;
+  }
+  .service-card:hover span{
+    transform: translateX(50px);
+  }
